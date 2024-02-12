@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(indigo, teal);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: larger;
+  }
+
+button{
+    border: solid 3px rgb(222, 170, 135);
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+.container{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas: 
+  "header header header header"
+  " main main main sidebar"
+  "main main main sidebar"
+  "footer footer footer sidebar"
+  ;
+}
+
+.item{
+  background-color: #7cc77f;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+.header{
+  grid-area: header;
+}
+
+.sidebar{
+  grid-area: sidebar;
+}
+
+.main{
+  grid-area: main;
+  
+}
+
+.footer{
+  grid-area: footer;
+}
+
+.about{
+  text-align: start;
+}
+
+#list{
+  margin-top: 70px;
+}

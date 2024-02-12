@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-color: rgb(17, 8, 50);
+    font-size: large;
+    padding-top: 100px;
+}
+
+p, h1{
+    color:beige;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div{
+    color: brown;
+}
+
+.address{
+    filter: blur(3px);
+}
+
